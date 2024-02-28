@@ -6,7 +6,7 @@ let alarm=new Audio('./asset/ringtone.mp3')
 
 let alarmTime
 
-for(let i=23 ; i>0 ; i--){
+for(let i=23 ; i>=0 ; i--){
    i = i<10 ? '0' + i : i;
     selectoption[0].innerHTML+=`<option value="${i}">${i}</option>`
 
